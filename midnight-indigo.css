@@ -1,0 +1,416 @@
+/* ------------------------------------------- */
+/* Midnight Indigo - Dark Mode                 */
+/* Deep night sky tones for immersive flow     */
+/* Mystical depth, creative introspection      */
+/* ------------------------------------------- */
+html[data-theme="basic-dark-midnight-indigo"] {
+    color-scheme: dark;
+
+    .heading-h1,
+    .heading-h2,
+    .heading-h3,
+    .heading-h4,
+    .heading-h5,
+    .heading-h6 {
+        color: #EFECF6;
+    }
+
+    --text-base-size: 16px;
+  
+    /* Background Colors - Deep midnight void (proper progression) */
+    --color-bg-50: #DCD8E8;
+    --color-bg-100: #AFA8C8;
+    --color-bg-150: #938AAE;
+    --color-bg-200: #776D94;
+    --color-bg-300: #5C527A;
+    --color-bg-400: #3D3552;
+    --color-bg-500: #2B2538;
+    --color-bg-600: #1F1A29;
+    --color-bg-700: #18141F;
+    --color-bg-800: #130F1A;
+    --color-bg-900: #0F0C15;
+    --color-bg-950: #0B0910;
+    --color-bg-500-50: rgba(43, 37, 56, 0.5);
+    --color-bg-950-50: rgba(11, 9, 16, 0.65);
+
+    /* Primary Colors - Mystical Indigo-Violet */
+    --color-primary-50: #F2F0F8;
+    --color-primary-100: #E0DCF2;
+    --color-primary-200: #C8BFEA;
+    --color-primary-300: #A898D8;
+    --color-primary-400: #8670C4;
+    --color-primary-500: #6B56AF;
+    --color-primary-600: #574497;
+    --color-primary-700: #443575;
+    --color-primary-800: #332859;
+    --color-primary-900: #221B3D;
+    --color-primary-950: #110E1F;
+    --color-primary-400-70: rgba(134, 112, 196, 0.7);
+    --color-primary-950-20: rgba(17, 14, 31, 0.2);
+    --color-primary-text-100: #F2F0F8;
+
+    /* Secondary Colors - Deep Violet */
+    --color-secondary-400: #7A6B90;
+    --color-secondary-500: #625475;
+    --color-secondary-600: #4D4260;
+
+    /* Text Colors - Ethereal violet mist (optimized contrast) */
+    --color-text-50: #EFECF6;
+    --color-text-100: #DCD8E8;
+    --color-text-200: #C4BEDA;
+    --color-text-300: #AFA8C8;
+    --color-text-400: #938AAE;
+    --color-text-500: #847AA4;
+    --color-text-600: #5C527A;
+    --color-text-700: #8670C4;
+    --color-text-800: #A898D8;
+    --color-text-900: #18141F;
+    --color-text-950: #2B2538;
+
+    /* Semantic Colors - Twilight spectrum (enhanced visibility) */
+    --text-ok: #6B8A95;
+    --text-status-online: #6B8A95;
+    --text-warning: #CCA870;
+    --text-error: #CC7088;
+    --bg-alert: #A85570;
+    --fg-alert: #EFECF6;
+
+    /* Links - Vibrant indigo-violet glow */
+    --link-color: #8670C4;
+    --link-hover-color: #A898D8;
+    --ed-link-color: #8670C4;
+    --ed-link-hover-color: #A898D8;
+
+    --ed-hashtag-color: #938AAE;
+    --ed-hashtag-bg: rgba(134, 112, 196, 0.15);
+
+    --ed-mention-color: #9F8FCC;
+    --ed-mention-bg: rgba(159, 143, 204, 0.12);
+    --ed-mention-hover-bg: rgba(159, 143, 204, 0.2);
+    --ed-mention-hover-color: #BAA8E0;
+
+    --ed-datetime-color: #8670C4;
+    --ed-datetime-bg: rgba(134, 112, 196, 0.12);
+
+    /* Tasks - Violet completion */
+    --ed-check-div-border: #847AA4;
+    --ed-check-div-hover-border: #8670C4;
+    --ed-check-done-bg: #625475;
+    --ed-check-done-fg: #18141F;
+
+    /* Done task styling (consistent opacity) */
+    .listitem.listitem-task.state-done .lineitem-text {
+        color: #847AA4 !important;
+        text-decoration-color: #625475 !important;
+        opacity: 0.75 !important;
+    }
+
+    /* Selection - Mystical violet glow */
+    --selection-bg: rgba(134, 112, 196, 0.28);
+    --selection-fg: #EFECF6;
+    --ed-selection-self-bg: rgba(134, 112, 196, 0.28);
+    --ed-selection-blurred-bg: rgba(134, 112, 196, 0.14);
+
+    --ed-caret-self-radius: 2px;
+    --ed-caret-self-border-width: 0px;
+    --ed-caret-self-background: color-mix(in srgb, #8670C4 90%, transparent);
+    --ed-caret-self-box-shadow: 0 0 6px rgba(134, 112, 196, 0.6);
+
+    /* Quotes & Code */
+    --ed-quote-border-color: #3D3552;
+    --ed-code-border: transparent;
+    --ed-code-bg: rgba(61, 53, 82, 0.4);
+
+    .lineitem-code {
+        background-color: var(--color-bg-300) !important;
+        color: #DCD8E8 !important;
+        border-radius: 4px;
+        padding: 2px 5px;
+        font-family: var(--font-monospace);
+    }
+
+    /* Note blocks */
+    --ed-block-note-bg: rgba(134, 112, 196, 0.1);
+    --ed-block-note-border: #847AA4;
+
+    /* UI Components - Midnight violet structure */
+    --cards-bg: #18141F;
+    --cards-hover-bg: #2B2538;
+    --cards-border-color: transparent;
+    --cards-border-color-focused: transparent;
+
+    --side-bg-active-focus: #443575;
+    --side-fg-active-focus: #DCD8E8;
+    --sidebar-bg-hover: #2B2538;
+    --sidebar-border-color: transparent;
+
+    --cmdpal-bg-color: #18141F;
+    --cmdpal-selected-bg-color: #443575;
+    --cmdpal-selected-fg-color: #EFECF6;
+    --cmdpal-hover-bg-color: #1F1A29;
+    --cmdpal-border-color: rgba(239, 236, 246, 0.05);
+
+    --input-bg-color: #130F1A;
+    --input-border-color: #3D3552;
+    --input-border-focus: 1px solid #847AA4;
+    --input-border-shadow: 0 0 10px rgba(134, 112, 196, 0.3);
+
+    --button-primary-bg-color: #847AA4;
+    --button-primary-fg-color: #EFECF6;
+    --button-primary-bg-hover-color: #8670C4;
+    --button-bg-color: #2B2538;
+    --button-border-color: transparent;
+    --button-bg-hover-color: #3D3552;
+
+    --color-shadow: rgba(0, 0, 0, 0.5);
+    --color-shadow-cards: 0 4px 6px rgba(0, 0, 0, 0.35);
+    --color-shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.45);
+
+    --logo-color: #8670C4;
+    --logo-glow-shadow:
+        0 0 20px rgba(134, 112, 196, 0.4),
+        0 0 40px rgba(134, 112, 196, 0.25);
+
+    /* Enums - Vibrant twilight palette */
+    --enum-red-bg: rgba(168, 85, 105, 0.28);
+    --enum-red-fg: #CC7088;
+    --enum-orange-bg: rgba(180, 130, 100, 0.22);
+    --enum-orange-fg: #D4AA94;
+    --enum-yellow-bg: rgba(200, 168, 100, 0.22);
+    --enum-yellow-fg: #E0CCA0;
+    --enum-green-bg: rgba(107, 138, 145, 0.25);
+    --enum-green-fg: #8BB8C0;
+    --enum-cyan-bg: rgba(100, 130, 160, 0.22);
+    --enum-cyan-fg: #A0C0DC;
+    --enum-blue-bg: rgba(134, 112, 196, 0.22);
+    --enum-blue-fg: #A898D8;
+    --enum-purple-bg: rgba(150, 110, 180, 0.22);
+    --enum-purple-fg: #C498DC;
+    --enum-pink-bg: rgba(180, 110, 150, 0.22);
+    --enum-pink-fg: #DC98C8;
+
+    --prop-border-focused: #18141F;
+    --prop-bg-focused: rgba(134, 112, 196, 0.22);
+    --shadow-sticky-row: 0 6px 12px rgba(0, 0, 0, 0.25);
+    --ed-drag-handle-color: #5C527A;
+    --ed-drag-handle-hover-border: #847AA4;
+
+    --gradient-scrim: none;
+
+    /* Focus states for keyboard navigation */
+    button:focus-visible,
+    input:focus-visible,
+    [tabindex]:focus-visible {
+        outline: 2px solid #8670C4;
+        outline-offset: 2px;
+    }
+}
+
+/* ------------------------------------------- */
+/* Midnight Indigo - Light Mode                */
+/* Soft lavender-grey for daytime clarity      */
+/* ------------------------------------------- */
+html[data-theme="basic-light-midnight-indigo"] {
+    color-scheme: light;
+
+    .heading-h1,
+    .heading-h2,
+    .heading-h3,
+    .heading-h4,
+    .heading-h5,
+    .heading-h6 {
+        color: #0D0F16;
+    }
+
+    --text-base-size: 16px;
+
+    /* Background Colors - Soft dawn lavender */
+    --color-bg-50: #0E0D16;
+    --color-bg-100: #1E1929;
+    --color-bg-150: #292437;
+    --color-bg-200: #3D3552;
+    --color-bg-300: #51475E;
+    --color-bg-400: #685D78;
+    --color-bg-500: #847AA4;
+    --color-bg-600: #A298BC;
+    --color-bg-700: #BEB8CE;
+    --color-bg-800: #F6F5FA;
+    --color-bg-900: #F2F0F7;
+    --color-bg-950: #FCFBFD;
+    --color-bg-500-50: rgba(132, 122, 164, 0.5);
+    --color-bg-950-50: rgba(252, 251, 253, 0.65);
+
+    /* Primary Colors - Soft Indigo-Violet */
+    --color-primary-50: #F9F8FB;
+    --color-primary-100: #EFF0F6;
+    --color-primary-200: #DFE0EF;
+    --color-primary-300: #C8C0E6;
+    --color-primary-400: #A898D8;
+    --color-primary-500: #8670C4;
+    --color-primary-600: #6B56AF;
+    --color-primary-700: #574497;
+    --color-primary-800: #443575;
+    --color-primary-900: #2E2651;
+    --color-primary-950: #110E1F;
+    --color-primary-400-70: rgba(168, 152, 216, 0.7);
+    --color-primary-950-20: rgba(17, 14, 31, 0.2);
+    --color-primary-text-100: #F9F8FB;
+    
+    /* Secondary Colors - Deep Violet */
+    --color-secondary-400: #7A6B90;
+    --color-secondary-500: #625475;
+    --color-secondary-600: #4D4260;
+
+    /* Text Colors - Deep twilight violet (optimized contrast) */
+    --color-text-50: #0E0D16;
+    --color-text-100: #1E1929;
+    --color-text-200: #292437;
+    --color-text-300: #3D3552;
+    --color-text-400: #51475E;
+    --color-text-500: #685D78;
+    --color-text-600: #776D94;
+    --color-text-700: #6B56AF;
+    --color-text-800: #574497;
+    --color-text-900: #F2F0F7;
+    --color-text-950: #292437;
+
+    /* Semantic Colors - Twilight spectrum (enhanced visibility) */
+    --text-ok: #3A5A60;
+    --text-status-online: #3A5A60;
+    --text-warning: #7A5A10;
+    --text-error: #7A364A;
+    --bg-alert: #C27890;
+    --fg-alert: #F9F8FB;
+
+    /* Links - Indigo-violet accent */
+    --link-color: #6B56AF;
+    --link-hover-color: #8670C4;
+    --ed-link-color: #6B56AF;
+    --ed-link-hover-color: #8670C4;
+
+    --ed-hashtag-color: #51475E;
+    --ed-hashtag-bg: rgba(168, 152, 216, 0.1);
+
+    --ed-mention-color: #574497;
+    --ed-mention-bg: rgba(87, 68, 151, 0.08);
+    --ed-mention-hover-bg: rgba(87, 68, 151, 0.15);
+    --ed-mention-hover-color: #443575;
+
+    --ed-datetime-color: #6B56AF;
+    --ed-datetime-bg: rgba(107, 86, 175, 0.1);
+
+    /* Tasks - Violet completion */
+    --ed-check-div-border: #847AA4;
+    --ed-check-div-hover-border: #8670C4;
+    --ed-check-done-bg: #625475;
+    --ed-check-done-fg: #F9F8FB;
+
+    /* Done task styling (consistent opacity) */
+    .listitem.listitem-task.state-done .lineitem-text {
+        color: #847AA4 !important;
+        text-decoration-color: #625475 !important;
+        opacity: 0.75 !important;
+    }
+
+    /* Selection - Soft violet */
+    --selection-bg: rgba(168, 152, 216, 0.25);
+    --selection-fg: #0E0D16;
+    --ed-selection-self-bg: rgba(168, 152, 216, 0.25);
+    --ed-selection-blurred-bg: rgba(168, 152, 216, 0.12);
+
+    --ed-caret-self-radius: 2px;
+    --ed-caret-self-border-width: 0px;
+    --ed-caret-self-background: color-mix(in srgb, #8670C4 90%, transparent);
+    --ed-caret-self-box-shadow: 0 0 6px rgba(134, 112, 196, 0.5);
+
+    /* Quotes & Code */
+    --ed-quote-border-color: #BEB8CE;
+    --ed-code-border: transparent;
+    --ed-code-bg: rgba(190, 184, 206, 0.5);
+
+    .lineitem-code {
+        background-color: var(--color-bg-600) !important;
+        color: #292437 !important;
+        border-radius: 4px;
+        padding: 2px 5px;
+        font-family: var(--font-monospace);
+    }
+
+    /* Note blocks */
+    --ed-block-note-bg: rgba(168, 152, 216, 0.08);
+    --ed-block-note-border: #847AA4;
+
+    /* UI Components - Soft dawn structure */
+    --cards-bg: #F6F5FA;
+    --cards-hover-bg: #EAEBF2;
+    --cards-border-color: transparent;
+    --cards-border-color-focused: transparent;
+
+    --side-bg-active-focus: #625475;
+    --side-fg-active-focus: #F9F8FB;
+    --sidebar-bg-hover: #E0DEED;
+    --sidebar-border-color: #D4D0E4;
+
+    --cmdpal-bg-color: #F6F5FA;
+    --cmdpal-selected-bg-color: #625475;
+    --cmdpal-selected-fg-color: #F9F8FB;
+    --cmdpal-hover-bg-color: #EAEBF2;
+    --cmdpal-border-color: transparent;
+
+    --input-bg-color: #F6F5FA;
+    --input-border-color: #BEB8CE;
+    --input-border-focus: 1px solid #847AA4;
+    --input-border-shadow: 0 0 10px rgba(168, 152, 216, 0.25);
+
+    --button-primary-bg-color: #51475E;
+    --button-primary-fg-color: #F9F8FB;
+    --button-primary-bg-hover-color: #6B56AF;
+    --button-bg-color: #E0DEED;
+    --button-border-color: transparent;
+    --button-bg-hover-color: #CCC8E0;
+
+    --kbd-bg: #CCC8E0;
+
+    --color-shadow: rgba(14, 13, 22, 0.08);
+    --color-shadow-cards: 0 4px 6px rgba(14, 13, 22, 0.08);
+    --color-shadow-hover: 0 6px 12px rgba(14, 13, 22, 0.12);
+
+    --logo-color: #6B56AF;
+    --logo-glow-shadow:
+        0 0 20px rgba(168, 152, 216, 0.25),
+        0 0 40px rgba(168, 152, 216, 0.12);
+
+    /* Enums - Soft twilight palette */
+    --enum-red-bg: rgba(122, 54, 74, 0.12);
+    --enum-red-fg: #7A364A;
+    --enum-orange-bg: rgba(140, 100, 80, 0.12);
+    --enum-orange-fg: #8C6450;
+    --enum-yellow-bg: rgba(122, 90, 16, 0.12);
+    --enum-yellow-fg: #7A5A10;
+    --enum-green-bg: rgba(58, 90, 96, 0.12);
+    --enum-green-fg: #3A5A60;
+    --enum-cyan-bg: rgba(70, 100, 130, 0.12);
+    --enum-cyan-fg: #466482;
+    --enum-blue-bg: rgba(107, 86, 175, 0.12);
+    --enum-blue-fg: #6B56AF;
+    --enum-purple-bg: rgba(120, 80, 150, 0.12);
+    --enum-purple-fg: #785096;
+    --enum-pink-bg: rgba(130, 80, 120, 0.12);
+    --enum-pink-fg: #825078;
+
+    --prop-border-focused: #F6F5FA;
+    --prop-bg-focused: rgba(168, 152, 216, 0.15);
+    --shadow-sticky-row: 0 6px 12px rgba(14, 13, 22, 0.06);
+    --ed-drag-handle-color: #BEB8CE;
+    --ed-drag-handle-hover-border: #847AA4;
+
+    /*--gradient-scrim: none;*/
+
+    /* Focus states for keyboard navigation */
+    button:focus-visible,
+    input:focus-visible,
+    [tabindex]:focus-visible {
+        outline: 2px solid #6B56AF;
+        outline-offset: 2px;
+    }
+}
